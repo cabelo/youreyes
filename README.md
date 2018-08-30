@@ -1,4 +1,4 @@
-#![](images/youreyes_pq.png)
+![](images/youreyes_pq.png)
 
 This project this is a example where you'll know how to run deep learning networks on Android device using OpenCV deep learning module.
 
