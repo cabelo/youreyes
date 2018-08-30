@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/cabelo/AndroidStudioProjects/opencv_mobilenet/openCVLibrary330/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fb2b8c86e483a66c5151eb5e26256a91ee283c20">
+        <dex dex="/home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cabelo/AndroidStudioProjects/opencv_mobilenet/openCVLibrary330/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="23"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fb2b8c86e483a66c5151eb5e26256a91ee283c20">
+        <dex dex="/home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+
+</items>
