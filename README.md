@@ -40,4 +40,4 @@ email: cabelo@opensuse.org
 
 ![](images/sofa.png)
 
-![](images/OIN.jpg.png)
+![](images/OIN.jpg)
