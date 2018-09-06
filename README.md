@@ -29,6 +29,9 @@ Version 3.0
 * Bug fix in armeabi processor
 * Add dependencies links
 
+Version 1.1
+* Add x86 support and multi language
+
 Version 1.0
 * First version
 
@@ -36,3 +39,5 @@ Alessandro de Oliveira Faria
 email: cabelo@opensuse.org
 
 ![](images/sofa.png)
+
+![](images/OIN.jpg.png)
