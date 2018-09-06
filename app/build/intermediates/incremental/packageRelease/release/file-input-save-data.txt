@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 28 22:55:40 BRT 2018
+#Thu Sep 06 00:41:56 BRT 2018
 7.path=lib/x86/libopencv_java3.so
 2.base=/home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/build/intermediates/transforms/mergeJniLibs/release/1
 5.set=ASSET

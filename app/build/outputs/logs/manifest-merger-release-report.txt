@@ -4,11 +4,14 @@ ADDED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/Andr
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml:2:1-26:12
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml:2:1-26:12
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/cabelo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/239f0b5c7f0479b6266c0e98f3ac0d75/AndroidManifest.xml:2:1-11:12
 MERGED from [:openCVLibrary330] /home/cabelo/AndroidStudioProjects/opencv_mobilenet/openCVLibrary330/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/10c7bc663c6ae63c024dcc2b8423066b/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/230639e2f1d43a2b889df8b794a00870/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1898b5e8901c77bc14a6cf2e8e94fa0a/AndroidManifest.xml:17:1-31:12
@@ -35,6 +38,8 @@ INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/A
 		ADDED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml:4:1-18:15
+MERGED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/cabelo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/239f0b5c7f0479b6266c0e98f3ac0d75/AndroidManifest.xml:9:5-20
@@ -43,6 +48,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/10c7bc663c6ae63c024dcc2b8423066b/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/230639e2f1d43a2b889df8b794a00870/AndroidManifest.xml:25:5-29:19
@@ -117,6 +126,8 @@ uses-sdk
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/cabelo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/239f0b5c7f0479b6266c0e98f3ac0d75/AndroidManifest.xml:5:5-7:41
@@ -127,6 +138,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/10c7bc663c6ae63c024dcc2b8423066b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/230639e2f1d43a2b889df8b794a00870/AndroidManifest.xml:21:5-23:63
@@ -144,7 +159,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/cabelo/.gradle/caches/t
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 		ADDED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
@@ -154,11 +169,17 @@ INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/A
 		ADDED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 		INJECTED from /home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/10c7bc663c6ae63c024dcc2b8423066b/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/10c7bc663c6ae63c024dcc2b8423066b/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1489409ee7357d496cec85c8fb28018d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/efec8ef487b46bba172c4cddac39939c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/9ff99bfab2fa3278f4860f06eb0d5914/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/b894e56265484a50f9f98b2cbc203e64/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/230639e2f1d43a2b889df8b794a00870/AndroidManifest.xml:26:9-28:38
@@ -172,9 +193,9 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/cabelo/.gradle/ca
 MERGED from [com.android.support:support-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2c0c1ce733d2cc41e67f8a8715b9544/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c2c0c1ce733d2cc41e67f8a8715b9544/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c3796b50d2b130a5d3f1e553e3fb00e/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2a56bc79cf790b94b80bdc0b8fe71ef4/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/cabelo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b588e765c6b497c3bff744fe9974af78/AndroidManifest.xml:25:9-27:47
 	android:value

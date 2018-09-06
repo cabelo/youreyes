@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 28 22:53:23 BRT 2018
+#Thu Sep 06 00:26:43 BRT 2018
 7.path=classes.dex
 2.base=/home/cabelo/AndroidStudioProjects/opencv_mobilenet/app/build/intermediates/assets/debug
 5.set=ASSET

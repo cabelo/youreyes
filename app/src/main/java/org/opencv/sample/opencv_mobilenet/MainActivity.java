@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import org.opencv.android.BaseLoaderCallback;
@@ -32,6 +33,8 @@ import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity implements CvCameraViewListener2 {
 
     // Initialize OpenCV manager.
@@ -82,6 +85,22 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        toSpeech=new TextToSpeech(MainActivity.this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status==TextToSpeech.SUCCESS)
+                {
+                    result=toSpeech.setLanguage(Locale.UK);
+                }
+                else
+                {
+                    Toast.makeText(getApplicationContext(),"Feature not supported in your device",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+
         String permissions[] = new String[]{
                 Manifest.permission.CAMERA
         };
@@ -89,6 +108,32 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
 
         _Ok = PermissionUtils.validate(this,0,permissions);
         if(_Ok) {
+            classNames = new String[]{
+            (String) getText(R.string.background),
+            (String) getText(R.string.aeroplane),
+            (String) getText(R.string.bicycle),
+            (String) getText(R.string.bird),
+            (String) getText(R.string.boat),
+            (String) getText(R.string.bottle),
+            (String) getText(R.string.bus),
+            (String) getText(R.string.car),
+            (String) getText(R.string.cat),
+            (String) getText(R.string.chair),
+            (String) getText(R.string.cow),
+            (String) getText(R.string.diningtable),
+            (String) getText(R.string.dog),
+            (String) getText(R.string.horse),
+            (String) getText(R.string.motorbike),
+            (String) getText(R.string.person),
+            (String) getText(R.string.pottedplant),
+            (String) getText(R.string.sheep),
+            (String) getText(R.string.sofa),
+            (String) getText(R.string.train),
+            (String) getText(R.string.tvmonitor)
+
+
+
+            };
 
             mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.CameraView);
             mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
@@ -98,6 +143,15 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
                 public void onClick(View view) {
                     Log.v(TAG, "Attempting to autofocus camera.");
                     Toast.makeText(MainActivity.this, "pronunciar", Toast.LENGTH_LONG).show();
+                    if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED)
+                    {
+                        Toast.makeText(getApplicationContext(),"Feature not supported in your device",Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        //text = editText.getText().toString();
+                        toSpeech.speak("feature in development",TextToSpeech.QUEUE_FLUSH,null);
+                    }
                 }
             });
         }
@@ -213,14 +267,10 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
         return "";
     }
     private static final String TAG = "OpenCV/Sample/MobileNet";
-      private static final String[] classNames = { "background",
-            "aeroplane", "bicycle", "bird", "boat",
-            "bottle", "bus", "car", "cat", "chair",
-            "cow", "diningtable", "dog", "horse",
-            "motorbike", "person", "pottedplant",
-            "sheep", "sofa", "train", "tvmonitor"};
-
+    String[] classNames;
     private Net net;
     private CameraBridgeViewBase mOpenCvCameraView;
     boolean _Ok = false;
+    TextToSpeech toSpeech;
+    int result;
 }

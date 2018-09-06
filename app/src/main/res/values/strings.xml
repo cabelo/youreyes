@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">opencv_mobilenet</string>
+    <string name="background">background</string>
+    <string name="aeroplane">aeroplane</string>
+    <string name="bicycle">bicycle</string>
+    <string name="bird">bird</string>
+    <string name="boat">boat</string>
+    <string name="bottle">bottle</string>
+    <string name="bus">bus</string>
+    <string name="car">car</string>
+    <string name="cat">cat</string>
+    <string name="chair">chair</string>
+    <string name="cow">cow</string>
+    <string name="diningtable">diningtable</string>
+    <string name="dog">dog</string>
+    <string name="horse">horse</string>
+    <string name="motorbike">motorbike</string>
+    <string name="person">person</string>
+    <string name="pottedplant">pottedplant</string>
+    <string name="sheep">sheep</string>
+    <string name="sofa">sofa</string>
+    <string name="train">train</string>
+    <string name="tvmonitor">tvmonitor</string>
 </resources>

@@ -19,6 +19,28 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="aeroplane">avión</string>
+    <string name="app_name">opencv_mobilenet</string>
+    <string name="background">fondo</string>
+    <string name="bicycle">bicicleta</string>
+    <string name="bird">pájaro</string>
+    <string name="boat">barco</string>
+    <string name="bottle">botella</string>
+    <string name="bus">autobús</string>
+    <string name="car">coche</string>
+    <string name="cat">gato</string>
+    <string name="chair">silla</string>
+    <string name="cow">vaca</string>
+    <string name="diningtable">mesa</string>
+    <string name="dog">perro</string>
+    <string name="horse">caballo</string>
+    <string name="motorbike">moto</string>
+    <string name="person">persona</string>
+    <string name="pottedplant">planta en maceta</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="sheep">oveja</string>
+    <string name="sofa">sofá</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="train">tren</string>
+    <string name="tvmonitor">tv/monitor</string>
 </resources>
