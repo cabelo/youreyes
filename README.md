@@ -1,5 +1,3 @@
-![](images/youreyes_pq.png)
-
 This project this is a example where you'll know how to run deep learning networks on Android device using OpenCV deep learning module.
 
 Do you need download MobileNet object detection model from  https://github.com/chuanqi305/MobileNet-SSD. This application need a configuration file MobileNetSSD_deploy.prototxt and weights MobileNetSSD_deploy.caffemodel. After the download, put MobileNetSSD_deploy.prototxt and MobileNetSSD_deploy.caffemodel into app/build/intermediates/assets/debug folder.
