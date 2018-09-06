@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">opencv_mobilenet</string>
+    <string name="background">fundo</string>
+    <string name="aeroplane">avião</string>
+    <string name="bicycle">bicicleta</string>
+    <string name="bird">pássaro</string>
+    <string name="boat">barco</string>
+    <string name="bottle">garrafa</string>
+    <string name="bus">ônibus</string>
+    <string name="car">carro</string>
+    <string name="cat">gato</string>
+    <string name="chair">cadeira</string>
+    <string name="cow">vaca</string>
+    <string name="diningtable">mesa</string>
+    <string name="dog">cachorro</string>
+    <string name="horse">cavalo</string>
+    <string name="motorbike">moto</string>
+    <string name="person">humano</string>
+    <string name="pottedplant">vaso</string>
+    <string name="sheep">ovelha</string>
+    <string name="sofa">sofa</string>
+    <string name="train">trem</string>
+    <string name="tvmonitor">monitor/tv</string>
+</resources>
