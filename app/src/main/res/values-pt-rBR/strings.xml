@@ -22,4 +22,6 @@
     <string name="sofa">sofa</string>
     <string name="train">trem</string>
     <string name="tvmonitor">monitor/tv</string>
+    <string name="MSGALERT01">Recurso não implementado</string>
+    <string name="MSGRECOG01">Identificado na câmera</string>
 </resources>

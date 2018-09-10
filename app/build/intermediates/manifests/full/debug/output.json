@@ -1,1 +1,1 @@
-[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":9},"path":"AndroidManifest.xml","properties":{"packageId":"org.opencv.sample.opencv_mobilenet","split":"","minSdkVersion":"15"}}]
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10},"path":"AndroidManifest.xml","properties":{"packageId":"org.opencv.sample.opencv_mobilenet","split":"","minSdkVersion":"15"}}]

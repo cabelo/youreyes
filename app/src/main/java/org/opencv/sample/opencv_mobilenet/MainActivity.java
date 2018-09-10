@@ -90,7 +90,10 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
             public void onInit(int status) {
                 if(status==TextToSpeech.SUCCESS)
                 {
-                    result=toSpeech.setLanguage(Locale.UK);
+                    current = getResources().getConfiguration().locale;
+                    result=toSpeech.setLanguage(current);
+                    //result=toSpeech.setLanguage(Locale.UK);
+
                 }
                 else
                 {
@@ -108,33 +111,40 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
 
         _Ok = PermissionUtils.validate(this,0,permissions);
         if(_Ok) {
+            //contador = new int[] {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
             classNames = new String[]{
             (String) getText(R.string.background),
             (String) getText(R.string.aeroplane),
             (String) getText(R.string.bicycle),
             (String) getText(R.string.bird),
             (String) getText(R.string.boat),
+
             (String) getText(R.string.bottle),
             (String) getText(R.string.bus),
             (String) getText(R.string.car),
             (String) getText(R.string.cat),
             (String) getText(R.string.chair),
+
             (String) getText(R.string.cow),
             (String) getText(R.string.diningtable),
             (String) getText(R.string.dog),
             (String) getText(R.string.horse),
             (String) getText(R.string.motorbike),
+
             (String) getText(R.string.person),
             (String) getText(R.string.pottedplant),
             (String) getText(R.string.sheep),
             (String) getText(R.string.sofa),
             (String) getText(R.string.train),
             (String) getText(R.string.tvmonitor)
-
-
-
             };
 
+            _Speeak = false;
+            ALERTA01 = (String) getText(R.string.MSGALERT01);
+            MSGRECOG01  = (String) getText(R.string.MSGRECOG01);
+
+
+            // Log.v(TAG, "Idioma:" + current.getDisplayName());
             mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.CameraView);
             mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
             mOpenCvCameraView.setCvCameraViewListener(this);
@@ -150,7 +160,9 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
                     else
                     {
                         //text = editText.getText().toString();
-                        toSpeech.speak("feature in development",TextToSpeech.QUEUE_FLUSH,null);
+                        //toSpeech.speak("feature in development",TextToSpeech.QUEUE_FLUSH,null);
+                        //toSpeech.speak(ALERTA01,TextToSpeech.QUEUE_FLUSH,null);
+                        _Speeak = true;
                     }
                 }
             });
@@ -185,12 +197,21 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
         Log.i(TAG, "Network loaded successfully");
     }
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
+
+        boolean _SpeeakNow = false;
+        contador = new int[] {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+        if(_Speeak){
+            _SpeeakNow = true;
+            _Speeak = false;
+        }
+
         final int IN_WIDTH = 300;
         final int IN_HEIGHT = 300;
         final float WH_RATIO = (float)IN_WIDTH / IN_HEIGHT;
         final double IN_SCALE_FACTOR = 0.007843;
         final double MEAN_VAL = 127.5;
         final double THRESHOLD = 0.2;
+        String phase;
         // Get a new frame
         Mat frame = inputFrame.rgba();
         Imgproc.cvtColor(frame, frame, Imgproc.COLOR_RGBA2RGB);
@@ -229,6 +250,8 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
                         new Point(xRightTop, yRightTop),
                         new Scalar(0, 255, 0));
                 String label = classNames[classId] + ": " + confidence;
+                contador[classId] = contador[classId]+1;
+
                 int[] baseLine = new int[1];
                 Size labelSize = Imgproc.getTextSize(label, Core.FONT_HERSHEY_DUPLEX, 1.00, 1, baseLine);
                 // Draw background for label.
@@ -240,6 +263,28 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
                 Imgproc.putText(subFrame, label, new Point(xLeftBottom, yLeftBottom),
                         Core.FONT_HERSHEY_DUPLEX , 1.00, new Scalar(0, 0, 0));
             }
+        }
+
+        if(_SpeeakNow){
+
+            //phase = "Na cena existe, ";
+            phase = MSGRECOG01;
+            for( int counter = 0; counter < contador.length; counter ++){
+                if(contador[counter] != 0){
+                    Log.i(TAG, classNames[counter]);
+                    phase = phase.concat( String.valueOf( contador[counter] ) );
+                    phase = phase.concat( " " );
+                    phase = phase.concat( classNames[counter] );
+                    phase = phase.concat( "," );
+
+                }
+
+            }
+            _SpeeakNow = false;
+            Log.i(TAG,phase);
+            toSpeech.speak(phase,TextToSpeech.QUEUE_FLUSH,null);
+            //Toast.makeText(MainActivity.this, phase, Toast.LENGTH_LONG).show();
+
         }
         return frame;
     }
@@ -266,11 +311,16 @@ public class MainActivity extends AppCompatActivity implements CvCameraViewListe
         }
         return "";
     }
+    Locale current;
     private static final String TAG = "OpenCV/Sample/MobileNet";
     String[] classNames;
+    String ALERTA01;
+    String MSGRECOG01;
     private Net net;
     private CameraBridgeViewBase mOpenCvCameraView;
     boolean _Ok = false;
     TextToSpeech toSpeech;
     int result;
+    int[] contador;
+    boolean _Speeak;
 }

@@ -21,4 +21,6 @@
     <string name="sofa">sofa</string>
     <string name="train">train</string>
     <string name="tvmonitor">tvmonitor</string>
+    <string name="MSGALERT01">Feature not implemented</string>
+    <string name="MSGRECOG01">Identified on camera</string>
 </resources>
